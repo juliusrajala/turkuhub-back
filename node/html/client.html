@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple markers</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <!-- provides global namespace for the google maps api function call initMap-->
+    <script src="js/client.js"></script>
+
+    <!-- gets a google map functionality from google maps api v3-->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+
+    <!-- provides functionality from 3rd party library for using 
+    	longer labels with google maps markers -->
+    <script type="text/javascript" src="https://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1.9/src/markerwithlabel.js"></script>
+
+    <!-- markers and map is generataed here-->
+    <script src="js/client2.js"></script>
+    
+        
+  </body>
+</html>
