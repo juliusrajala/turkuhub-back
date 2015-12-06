@@ -11,5 +11,11 @@
     "turku"
   ],
   "author": "JuMa Productions",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "path": "^0.12.7",
+    "python-shell": "^0.2.0"
+  }
 }
